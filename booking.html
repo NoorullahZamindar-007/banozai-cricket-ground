@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Match - Banozai Cricket Ground</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 class="banozai-logo">Banozai</h1>
+                <h1>Cricket Ground</h1>
+              </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="booking.html" class="active">Booking</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="highlight"><a href="booking.html">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h2>Book Your Cricket Match</h2>
+                <p>Reserve our facilities for your next game or tournament</p>
+            </div>
+        </section>
+
+        <section class="booking-section">
+            <div class="container">
+                <div class="booking-container">
+                    <div class="booking-form">
+                        <h2>Booking Request</h2>
+                        <form id="bookingForm">
+                            <div class="form-group">
+                                <label for="name">Full Name*</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date*</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Preferred Time*</label>
+                                <input type="time" id="time" required>
+                            </div>
+                            <button type="submit" class="btn">Submit Booking Request</button>
+                        </form>
+                    </div>
+                    <div class="booking-info">
+                        <h2>Booking Information</h2>
+                        <div class="info-card">
+                            <i class="fas fa-clock"></i>
+                            <h3>Availability</h3>
+                            <p>7 days/week, 7:00 AM - 9:00 PM</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <h3>Rates</h3>
+                            <p>From $50/hour depending on booking type</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
